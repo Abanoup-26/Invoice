@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/print.css">
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="container  no-page-break">
+
+        <div class="row justify-content-between">
+            <!-- Qr Image and Invoice Number & data -->
+            <div class="row justify-content-between ">
+                <div class="logo col-md-4 ">
+                    <img class="w-75 h-50 border" src="logo.png" alt="">
+                </div>
+                <div class="col-md-4 ">
+                    <h4 class="text-center mt-5">فاتوره ضريبيه</h4>
+                    <h5 class="text-center">Tax Invoice No : 36796</h5>
+                </div>
+                <div class="col-md-4 text-center text-md-end ">
+                    <img class="border w-75" src="qr.jpg" alt="Qr-code" />
+                </div>
+            </div>
+            <!--End QR Image and Invoice Number & data -->
+        </div>
+
+        <!-- data Section  -->
+        <div class="row  justify-content-center" style="font-size: 14px; font-weight: bold;">
+            <div class="col-md-6">
+                <ul style="list-style: none;">
+                    <li>Date:&nbsp;&nbsp;&nbsp;تاريخ الفاتوره :14/08/2023</li>
+                    <li>Remarks: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AACC</li>
+                    <li>Declaration No : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;313232</li>
+                    <li>Al-Oufi Tax No:الرقم الضريبي 300138694800003</li>
+                </ul>
+            </div>
+            <div class="col-md-6 ">
+                <ul style="list-style: none;" dir="rtl">
+                    <li>شركة بحري لوجستكس رقم المبني :3074</li>
+                    <li> رقم الفرعي :8022 </li>
+                    <li>رقم السجل :70079456632</li>
+                    <li> رمز البريدي : 12213</li>
+                    <li> الشارع : طريق الامير محمد بن عبد العزيز ، حي العليا ، الرياض</li>
+                    <li> الرقم الضريبي : 310180801700003</li>
+
+                </ul>
+            </div>
+        </div>
+        <hr style=" border: 1px solid black;  font-weight: bold;">
+        <!-- data Section  -->
+        <div class="border border-3 row ms-4 " style="height: 100px; width: 90%;">
+
+            <div class="col-5 ">
+                <ul style="list-style: none; ">
+                    <li><strong>Awb No: </strong>065-4075 2386</li>
+                    <li><strong>No of PCs:</strong> 1</li>
+                    <li><strong>Goods Description:</strong> SPARE PARTS</li>
+                </ul>
+            </div>
+            <div class="col-5 ">
+                <ul style="list-style: none; ">
+                    <li><strong>Client No:</strong> &nbsp; &nbsp; 489</li>
+                    <li><strong>Total Wight:</strong> &nbsp; &nbsp; 80.3</li>
+                    <li><strong>Delievery Date:</strong> 09/08/2023</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class=" row fw-bold  mb-1 fs-5">
+            <div class="col-10">Description</div>
+            <div class="col-2"> Amount</div>
+        </div>
+        <!-- Charges -->
+        <div class=" row  border">
+            <div class="col-md-12">
+                <table class="table table-md ">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4 style="text-decoration: underline;">Fright Charges</h4>
+                            </td>
+                            <td class="text-end"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Air/Sea</td>
+                            <td class="text-center">رسوم نقل جوي </td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4 style="text-decoration: underline;">Service Charges</h4>
+                            </td>
+                            <td class="text-center"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Customer Dues</td>
+                            <td class="text-center">رسوم جمركيه</td>
+                            <td class=" border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Clearance</td>
+                            <td class="text-center">رسوم تخليص</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Order/Storage</td>
+                            <td class="text-center">اجور تسليم وتخزين </td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Legalization</td>
+                            <td class="text-center">رسوم تصديق</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>EXP/IMP Formalities</td>
+                            <td class="text-center">رسوم اجراءات الاستيراد والتصدير </td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Demurrage</td>
+                            <td class="text-center">رسوم ارضيه</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td> Translation/Scan</td>
+                            <td class="text-center">رسوم ترجمه وارشيف</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Undertaking Penalty</td>
+                            <td class="text-center">رسوم تعهدات</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4 style="text-decoration: underline;">Handlind Charges</h4>
+                            </td>
+                            <td class="text-center"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Transportation</td>
+                            <td class="text-center">رسوم نقل</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Loading</td>
+                            <td class="text-center"> اجور عماله</td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Other Expenses</td>
+                            <td class="text-center"> اخري </td>
+                            <td class="border text-center"> <span class="border p-2">0.00</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Charges -->
+        <!-- Amount will be paid in Arabic -->
+        <div class="row ">
+            <div class="col-md-8">
+                <p class=" fs-4 fw-bold">Amount will be paid in Arabic </p>
+            </div>
+            <div class="col-md-4 ">
+                <div class="p-2">Invoice Total<span class="border ms-5 p-2">1000.00</span></div>
+                <div class="p-2"> Tax 15%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                        class="border ms-5 p-2">150.00</span> </div>
+                <div class="p-2"> Net Amount<span class="border ms-5 p-2">1150.00</span> </div>
+            </div>
+        </div>
+        <!-- Amount will be paid in Arabic -->
+
+        <!-- prepared and approved  -->
+        <div class="row   justify-content-between ">
+            <div class="col-md-4 fs-4 text-center border-top border-3 "> Prepared by </div>
+            <div class="col-md-4 fs-4 text-center border-top border-3"> Approved by</div>
+        </div>
+        <br>
+        <br>
+        <!-- prepared and approved  -->
+        <!--Details-->
+        <div class="ms-5 row justify-content-center fw-bold">
+            <div class="col-4 fs-5">سجل تجاري 430021230</div>
+            <div class=" ms-3 col-4 fs-5">موسسة العوفي للتخليص الجمركي </div>
+        </div>
+        <!-- End Details-->
+        <!-- Cr num -->
+        <div class="row mt-2">
+            <p class="text-center fw-bold fs-5 ">
+                Our Ac/details: Al Oufi Customs Clearance Est.A/c 132498000103-IBAN : SA86 1000 0013 2498 0000 0103
+                -
+                Bank:NCB
+            </p>
+        </div>
+
+        <!---Address--->
+        <div class="  mt-2 row justify-content-center fw-bold">
+            <div class="col-6 fs-5">Building No: 8160 , Street : As Sayyidah Zaynab </div>
+            <div class="col-4 fs-5">رقم المبني 8160 ، الشارع : السيده زينب</div>
+        </div>
+        <!---Address--->
+        <!--- Additional Address--->
+        <div class="  mt-2 row justify-content-center fw-bold">
+            <div class="col-6 fs-5">Secondary No: 2830 , District : Ash Sharafiyah Dist</div>
+            <div class="col-4 fs-5">الرقم الفرعي 2830 ، الحي : حي الشرفية</div>
+        </div>
+        <!--- Additional Address--->
+
+        <div class="row mt-5">
+            <p class="text-center fw-bold text-primary fs-4 ">
+                Clearance Forwarding Transportation General Trading Corgo تخليص جمركي - اعادة توجيه-نقليات - تجاره
+                عامة
+                - شحن
+            </p>
+        </div>
+
+        <!-- footer -->
+        <footer class="d-flex flex-column bg-success border-top border-5 border-danger p-3">
+            <div class="container">
+                <div class="row" dir="rtl">
+                    <div class="col-md-4">
+                        <p class="text-white fw-bold text-center">
+                            موسسة العوفي للتخليص الجمركي
+                            <br>ص.ب2365 جدة 21451 المملكه العربيه السعودية
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="text-white fw-bold text-center">
+                            بريد الكتروني info@ssaloufi.com,www.ssaloufi.com
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="text-white fw-bold text-center">
+                            هــــاتــف - 0126600600-6633566
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-white fw-bold text-center">
+                        Al oufi clearance Est.P.O Box 2365, Jeddah 21451, Tel: 0126600600-6633566,
+                        Fax: 0126695219, Email: info@ssaloufi,www.ssaloufi.com
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
